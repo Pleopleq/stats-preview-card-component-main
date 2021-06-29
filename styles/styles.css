@@ -1,0 +1,61 @@
+html {
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #090b1a;
+}
+
+.highlight-purple {
+  color: #aa5cdb;
+}
+
+.highlight-white {
+  margin-bottom: 0.5rem;
+}
+
+.container {
+  background-color: #1b1938;
+  margin: 5rem 1rem 5rem 1rem;
+  color: white;
+  border-radius: 0.8rem;
+}
+
+.hero .hero-mobile {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+}
+
+.content {
+  padding: 2rem 1rem 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.content .content-title {
+  margin-bottom: 0.5rem;
+}
+.content .content-description {
+  max-width: 18em;
+  opacity: 0.8;
+}
+.content .content-perks .content-perks__perk {
+  opacity: 0.7;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=styles.css.map */

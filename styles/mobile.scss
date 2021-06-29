@@ -1,0 +1,55 @@
+@use './utils' as color;
+
+body {
+  background-color: color.$very-dark-blue;
+}
+
+.highlight-purple {
+  color: color.$soft-violet;
+}
+
+.highlight-white {
+  margin-bottom: 0.5rem;
+}
+
+.container {
+  background-color: color.$dark-desaturated-blue;
+  margin: 5rem 1rem 5rem 1rem;
+  color: color.$white;
+  border-radius: 0.8rem;
+}
+
+.hero {
+  .hero-mobile {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+  }
+}
+
+.content {
+  padding: 2rem 1rem 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  .content-title {
+    margin-bottom: 0.5rem;
+  }
+
+  .content-description {
+    max-width: 18em;
+    opacity: 0.8;
+  }
+
+  .content-perks {
+    .content-perks__perk {
+      opacity: 0.7;
+      text-transform: uppercase;
+    }
+  }
+}
