@@ -19,10 +19,6 @@ body {
   color: #aa5cdb;
 }
 
-.highlight-white {
-  margin-bottom: 0.5rem;
-}
-
 .container {
   background-color: #1b1938;
   margin: 5rem 1rem 5rem 1rem;
@@ -51,11 +47,17 @@ body {
 }
 .content .content-description {
   max-width: 18em;
-  opacity: 0.8;
+  opacity: 0.7;
+}
+.content .content-perks .content-perks__title {
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.8px;
 }
 .content .content-perks .content-perks__perk {
   opacity: 0.7;
   text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: small;
 }
 
 /*# sourceMappingURL=styles.css.map */
