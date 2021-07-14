@@ -1,0 +1,13 @@
+@media (min-width: 850px) and (orientation: landscape) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .hero {
+      order: 2;
+    }
+    .hero img {
+      border-top-left-radius: 0rem;
+      border-bottom-right-radius: 0.8rem;
+    }
+  }
+}
